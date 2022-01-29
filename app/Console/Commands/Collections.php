@@ -43,6 +43,7 @@ class Collections extends Command
      */
     public function handle()
     {
-        $this->console->writeln($this->mainController->average());
+        //$this->console->writeln($this->mainController->integersAverage());
+        $this->console->writeln($this->mainController->objectsAverage());
     }
 }
